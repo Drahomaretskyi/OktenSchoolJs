@@ -35,7 +35,7 @@ let books3 = {
     title: 'Эпоха мертвих',
     pageCount: 400,
     genre: 'Пост апокалипсис',
-    authors: ['name', 'age']
+    authors: {nameAge:['name', 'age']}
 }
 console.log(books3);
 
@@ -43,36 +43,16 @@ console.log(books3);
 // Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 let users = [
-    {
-        name: 'Petya'
-    },
-    {
-        username: 'Kaban12'
-    },
-    {
-        password: "hello321123"
-    },
-    {
-        age: 25
-    },
-    {
-        weight: 80
-    },
-    {
-        height: 1.83
-    },
-    {
-        experience: "2 роки"
-    },
-    {
-        skills: 'java'
-    },
-    {
-        county: 'Ukraine'
-    },
-    {
-        city: 'Lviv'
-    }
+    {name: 'Petya', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya1', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya2', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya3', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya4', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya5', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya6', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya7', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya8', username: 'Kaban12',password: "hello321123"},
+    {name: 'Petya9', username: 'Kaban12',password: "hello321123"},
 ]
 console.log(users[0].name);
 console.log(users[1].username);
