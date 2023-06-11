@@ -115,8 +115,24 @@ console.log(card5);
 //     hearts:[],
 //     clubs:[]
 // }
-
-
+const card8 = cards.reduce((acc, cu) => {
+    switch (cu.cardSuit) {
+        case 'spade':
+            acc.spade.push(cu);
+            break;
+        case 'diamond':
+            acc.diamond.push(cu);
+            break;
+        case 'heart':
+            acc.heart.push(cu);
+            break;
+        case 'clubs':
+            acc.clubs.push(cu);
+            break;
+    }
+    return acc;
+}, { spade:[], diamond:[], heart:[], clubs:[]});
+console.log(card8);
 // =========================
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 let coursesArray = [
